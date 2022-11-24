@@ -34,6 +34,7 @@ nav .logo-container img{
 
 nav .icon {
     color: rgb(255, 255, 255);
+    height: 40px;
 }
 
 /* ---- Dashboard ---- */
@@ -51,4 +52,31 @@ nav .icon {
 .ticket-card {
     display: flex;
     width: 100%;
+}
+
+.ticket-card #link{
+    display: flex;
+    width: 100%;
+}
+
+/* tutto quello che è dentro il Link */
+.ticket-card #link > * {
+    background-color: rgb(221,221,221);
+    margin: 2px;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ticket-card .ticket-color {
+    width: 15px !important;
+    padding: 10px !important;
+    margin: 2px;
+}
+
+.ticket-card .avatar-container {
+    display: flex;
+    justify-content: center;
+    width: 80px;
 }
