@@ -1,4 +1,4 @@
-import blankAvatar from '../images/blank-profile-avatar.png'
+import blankAvatar from '../images/blank-profile-avatar1.png'
 
 const AvatarDisplay = ({ticket}) => {
     return (

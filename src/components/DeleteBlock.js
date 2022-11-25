@@ -1,7 +1,12 @@
 const DeleteBlock = () => {
+
+    const deleteTicket=() => {
+        console.log('deleted')
+    }
+
     return (
-        <div>
-            DeleteBlock
+        <div className="delete-block">
+            <div className="delete-icon" onClick={deleteTicket}>✖</div>
         </div>
     );
 }

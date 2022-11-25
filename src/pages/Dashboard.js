@@ -41,6 +41,14 @@ const Dashboard = () => {
 
     ]
 
+    const colors = [
+        'rgb(255,179,186)',
+        'rgb(255,223,186)',
+        'rgb(255,255,186)',
+        'rgb(186,255,201)',
+        'rgb(186,255,255)'
+    ]
+
     //mi torna tutti i valori unici e li mette in un array, che sarà una uniqueCategories
     const uniqueCategories = [
         ...new Set(tickets?.map(({category}) => category))
@@ -59,7 +67,7 @@ const Dashboard = () => {
                         {tickets.filter(ticket => ticket.category === uniqueCategory)
                             .map((filteredTicket, ticketIndex) => (
                                 <TicketCard id={ticketIndex} 
-                                color={filteredTicket.color}
+                                color={colors[categoryIndex] || colors[0]}
                                 ticket={filteredTicket}/>   
                             ))
                         }
