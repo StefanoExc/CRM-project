@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from '../images/crm-logo.png'
 import { useNavigate } from 'react-router-dom';
 

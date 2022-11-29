@@ -1,3 +1,4 @@
+import React from 'react';
 import blankAvatar from '../images/blank-profile-avatar1.png'
 
 const AvatarDisplay = ({ticket}) => {

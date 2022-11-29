@@ -102,16 +102,16 @@ nav .icon {
     justify-content: center;
 }
 
-.ticket-card .priority-display {
+.ticket-card .message-display {
     display: flex;
     justify-content: center;
 }
 
-.ticket-card .priority-display .star-container {
+.ticket-card .message-display .message-container {
     display: flex;
 }
 
-.ticket-card .priority-display .star-container h3 {
+.ticket-card .message-display .star-container .message-button{
     margin: 7px;
     padding: 0;
 }
@@ -193,5 +193,3 @@ nav .icon {
 .ticket form .multiple-input-container {
     margin: 20px 0 20px 0;
 }
-
-

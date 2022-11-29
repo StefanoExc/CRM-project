@@ -1,3 +1,4 @@
+import React from "react";
 const StatusDisplay = ( {status} ) => {
 
     const getColor  = () => {
@@ -9,7 +10,7 @@ const StatusDisplay = ( {status} ) => {
             case 'working on it':
                 color = 'rgb(255,223,186)'
                 break;
-            case 'stuck':
+            case 'not started':
                 color = 'rgb(255,179,186)'
                 break;
             default:

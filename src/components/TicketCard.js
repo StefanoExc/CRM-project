@@ -1,7 +1,8 @@
+import React from 'react';
 import { Link } from 'react-router-dom'
 import AvatarDisplay from './AvatarDisplay'
 import StatusDisplay from './StatusDisplay'
-import PriorityDisplay from './PriorityDisplay'
+import MessageDisplay from './MessageDisplay'
 import ProgressDisplay from './ProgressDisplay'
 import DeleteBlock from './DeleteBlock'
 
@@ -14,7 +15,7 @@ const TicketCard = ({ color, ticket}) => {
                 <h3>{ticket.title}</h3>
                 <AvatarDisplay ticket={ticket.avatar}/>
                 <StatusDisplay status ={ticket.status}/>
-                <PriorityDisplay priority ={ticket.priority}/>
+                <MessageDisplay message ={ticket.message}/>
                 <ProgressDisplay progress = {ticket.progress}/>
                 <DeleteBlock/>
             </Link>
